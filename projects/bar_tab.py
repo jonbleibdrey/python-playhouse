@@ -1,7 +1,7 @@
 class Tab:
 
     menu = {
-        "wine": 5,
+        "wine": 5, 
         "beer": 3,
         "soft_drink": 2,
         "beef": 15,
