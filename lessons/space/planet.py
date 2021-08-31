@@ -4,11 +4,13 @@ class Planet:
     shape = "round"
 
     #class methods
+    #this is allso a decorator and it extends the methods below here.
     @classmethod
     def commons(cls):
         return f"All planets are {cls.shape} becuase of gravity"
 
     #static methods
+    #this is allso a decorator and it extends the methods below here.
     @staticmethod
     def spin(speed = " 2000 miles per hour"):
         return f"The planet spin and spins at {speed}"
